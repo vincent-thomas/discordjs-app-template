@@ -6,8 +6,7 @@ import * as commands from "./commands";
 const Events: any = events;
 const Commands: any = commands;
 
-const DISCORD_TOKEN =
-  "OTUwMTQ3MjY3MTIwMjMwNDAx.YiUrmQ.X3l5uR30AeU6BMg1aPPcaaWk8DQ";
+const DISCORD_TOKEN = "TOKEN_HERE";
 
 export class AppClient extends Client {
   constructor() {

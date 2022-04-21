@@ -10,8 +10,7 @@ const commands: any[] = [];
 
 const CLIENT_ID = "";
 const GUILD_ID = "";
-const DISCORD_TOKEN =
-  "OTUwMTQ3MjY3MTIwMjMwNDAx.YiUrmQ.X3l5uR30AeU6BMg1aPPcaaWk8DQ";
+const DISCORD_TOKEN = "TOKEN_HERE";
 
 Object.keys(Commands).forEach((commandName: string) => {
   const command: Command = new (Commands as any)[commandName].default();

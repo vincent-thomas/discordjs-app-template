@@ -1,0 +1,1 @@
+nodemon -e ts --exec 'tsc -b && node ./dist/main.js'
